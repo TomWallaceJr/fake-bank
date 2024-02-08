@@ -1,8 +1,11 @@
-# React + Vite
+This Application is a single page application of a fake bank.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The purpose of developing this was to introduce myself to in depth TailwindCSS concepts such as dynamically added classes via template literals inside my JSX and configuring my own classes and properties inside tailwind.config.cjs file.
 
-Currently, two official plugins are available:
+<!-- Ex: <div className={`bg-primary ${styles.flexStart}`></div> -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Also introduce to new concepts that cleans up code AND allows non-coders to change the look and content of a webpage by simply changing properties of a single file with an array of objects.
+
+EX: The Navbar renders the navlinks by mapping through an array on an index.js file.
+
+This project also gets very indepth with tailwind properties to develop a very concise UI from a Figma file.
